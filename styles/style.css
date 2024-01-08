@@ -246,23 +246,33 @@ padding:100px 120px 5px 50px ;
 }
 .abir{
     width: 463px;
-height: 463px;
-flex-shrink: 0;
-border-radius: 463px;
-border: 15px solid #F00;
+    height: 463px;
+    flex-shrink: 0;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    margin:200px 50px ;
+    
 }
 .abir-first{
     width: 364.844px;
-height: 364.844px;
-flex-shrink: 0;
-border-radius: 364.844px;
-background: url(<path-to-image>), lightgray -91.279px 0px / 150.038% 100% no-repeat;
+    height: 364.844px;
+    flex-shrink: 0;
+    border-radius: 364.844px;
+    background: url(<path-to-image>), lightgray -91.279px 0px / 150.038% 100% no-repeat;
+    margin: 50px 50px ;
+}
+
+.atik{
+    width: 1600px;
+    height: 7335px;
+    background: #FFF;
 }
 .atik-first{
     color: #F00;
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
+    padding: 220px 290px 0px 0px;
 
 }
 .atik-secend{
@@ -272,10 +282,13 @@ background: url(<path-to-image>), lightgray -91.279px 0px / 150.038% 100% no-rep
     font-size: 20px;
     font-weight: 400;
     line-height: 32px; /* 160% */
+    padding: 0px 140px 20px 100px;
+    
 }
 .atik-third{
     width: 140px;
     height: 140px;
+    padding:20px 280px 100px 10px;
 
 }
 .wow-happy{
