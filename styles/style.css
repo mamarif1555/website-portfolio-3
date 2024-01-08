@@ -5,10 +5,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     background: #FFF;
     font-family: 'Inter', sans-serif;
-    width: 1320px;
-    height: 600px;
-    flex-shrink: 0;
-
+   
     
 }
 
@@ -160,8 +157,7 @@ padding:100px 120px 5px 50px ;
 
 .main{
     background-color: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    width: 1320px;
-    height: 482px;
+    
 
 }
 .main-text{
@@ -202,8 +198,8 @@ padding:100px 120px 5px 50px ;
 }
 .main-first-but{
     text-align: center;
-    padding: 100px 80px ;
-    background: #FFF;
+   
+    
 }
 /
    /* style start another  */
@@ -295,8 +291,7 @@ padding:100px 120px 5px 50px ;
     
 }
 .section{
-    width: 1600px;
-    height: 7335px;
+    
     margin-top: 0px;
     padding-top: 0px;
     background: #FFF;
@@ -378,4 +373,86 @@ padding:100px 120px 5px 50px ;
     background-position: left top;
     display:flex;
     
+}
+/* portfolio section style */
+.Portfolio{
+    background: #FFF;
+}
+.portfolio-title{
+    color: #F00;
+   font-family: Inter;
+   font-size: 24px;
+   font-weight: 500;
+   padding: 120px 16px 10px 140px;
+}
+.portfolio-head{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding:5px 16px 10px 140px;
+}
+.portfolio-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    padding: 10px 16px 10px 140px;
+}
+
+.nur{
+    width: 1600px;
+    height: 7335px;
+    padding: 20px 130px 20px 130px;
+    
+    
+    
+}
+.hur{
+    
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    display: inline; 
+    margin:5px 5px;
+
+} 
+.hur-1{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.hur-2{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.hur-3{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.hur-4{
+    mmargin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.hue-5{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.hur-6{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
 }
