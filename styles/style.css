@@ -1,0 +1,90 @@
+/* common sheard style */
+body{
+    
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+    background: #FFF;
+    font-family: 'Inter', sans-serif;
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+
+    
+}
+
+/* header section styles */
+
+.text{
+    width: 1320px;
+    height: 600px;
+    background-image:url('../images/Banner\ Image.png') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: border-radius: 16px;
+    padding: 50px 140px 100px 140px;
+    
+    
+}
+.title{
+    text-align: center;
+}
+.new-title{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    padding: 140px 530px 0 530px;
+
+}
+.new-year-title{
+   color: #FFF;
+   text-align: center;
+   font-family: Merriweather;
+   font-size: 72px;
+   font-style: normal;
+   font-weight: 900;
+   line-height: 95px; /* 131.944% */
+   padding: 0 330px 170px 330px;
+}
+.offer{
+    text-align: center;
+    width: 1600px;
+    height: 7335px;
+    background: #FFF;
+    
+}
+.header-title{
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+    margin: 500px 350px 60px 280px;
+}
+.offer-title{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin: 120px 450px 50px 455px;
+
+}
+.offer-description{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 25px 550px 10px 550px;
+
+}
+.offer-new{
+    color: #070211;
+   text-align: center;
+   font-family: Inter;
+   font-size: 48px;
+   font-weight: 700;
+   margin: 5px 550px;
+
+}
+
