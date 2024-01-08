@@ -361,9 +361,9 @@ padding:100px 120px 5px 50px ;
     width: 1320px;
     height: 229px;
     background-image: url('../images/Rectangle\ 2.png');
+    display: flex;
     background-repeat: no-repeat;
     background-position:top right;
-    display: flex;
     padding: 0px 0px 0px 100px;
     margin: 0 auto;
 
@@ -404,7 +404,7 @@ padding:100px 120px 5px 50px ;
 
 .nur{
     width: 1600px;
-    height: 7335px;
+ 
     padding: 20px 130px 20px 130px;
     
     
@@ -455,4 +455,58 @@ padding:100px 120px 5px 50px ;
     margin-left: 5px;
     margin-bottom: 5px;
     margin-right: 5px;
+}
+.nur-title{
+    
+}
+.nur-1{
+    
+    
+    padding: 200px 680px 40px 700px;
+}
+.nur-but{
+    text-align: center;
+}
+.nur-2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding: 0px 300px 20px 500px;
+}
+.nur-3{
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    padding: 0px 300px 40px 300px ;
+}
+.nur-button{
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    width: 648px;
+    height: 72px;
+    border: 0;
+    
+}
+.nur-button-1{
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: 0;
+    
 }
