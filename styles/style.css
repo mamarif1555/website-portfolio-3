@@ -5,8 +5,7 @@ body{
     font-family: 'Merriweather', serif;
     font-family: 'Open Sans', sans-serif;
     background: #FFF;
-    font-family: 'Inter', sans-serif;
-    
+    font-family: 'Inter', sans-serif;   
 }
 
 /* header section styles */
@@ -17,7 +16,6 @@ body{
     background-image:url('../images/Banner\ Image.png') ;
     background-repeat:no-repeat ;
     background-position:center ;
-    border-radius: 16px;
     margin-top: 50px;
     margin-left: 140px;
     margin-bottom:120px ;
@@ -27,24 +25,34 @@ body{
     width: 1320px;
     height: 600px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-    
-    
+    border-radius: 16px;    
 }
-.new-title{
-    color: #FFF;
-    font-family: Merriweather;
-    font-size: 32px;
-    font-weight: 400;
-    padding: 140px 530px 0 530px;
+.wow{
+    text-align: center;
+}
+.offer-title{
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;   
+}
 
+.offer-description{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0;
 }
-.new-year-title{
-   color: #FFF;
-   text-align: center;
-   font-family: Merriweather;
-   font-size: 72px;
-   line-height: 95px; /* 131.944% */
-   padding: 0 330px 170px 330px;
+
+.offer-title-description{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;  
+    margin-top: 16px;
+}
+
+.offer{
+    width: 802.9px;
+    height: 500px;
 }
 
 .text-first{
@@ -53,103 +61,156 @@ body{
     background-image:url('../images/Vectorrr.png') ;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: border-radius: 16px;
-    padding: 50px 140px 100px 140px;
-    display:flex;
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-bottom:120px ;
+    margin-right: 140px;
     
-}
 
-.text-secend{
-    display: flex;
-    width: 319.83px;
-    height: 464.662px;
-    padding: 0.008px 0px 0px 0px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
 }
 .title-first{
+    display: flex;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    border-radius: 16px; 
     
-    justify-content: left;
+    
+    
 }
+.text-secend{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+
+}
+
 .new-title-first{
     color: #FFF;
     font-family: Merriweather;
     font-size: 64px;
     font-weight: 900;
-    line-height: 88px; /* 137.5% */
+    line-height: 88px; 
     letter-spacing: 7.04px;
-    justify-content: left;
-    padding:100px 120px 5px 50px ;
-
+    margin-top:126px ;
+    margin-bottom: 24px;
+    margin-left:126px ;
+    margin-right:90px ;
 }
+
 .new-year-title-first{
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px; /* 166.667% */
-    padding: 5px 40px 10px 50px;
+    line-height: 30px;
+    margin-top:0px ;
+    margin-bottom: 8px;
+    margin-left:126px ;
+    margin-right:30px ;
 }
 .btn{
-    color: #FFF;
-    background-color: #05020c;
-    text-align: center;
+    
+    color: #fcfafa;
+    background-color: #080808de;
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
+    padding: 15px 15px;
+    margin-top:0px ;
+    margin-bottom: 10px;
+    margin-left:126px ;
+    margin-right:0px ;
     border: 0;
-    padding: 5px 10px;
-    margin: 0 100px;
+    
+    
+}   
+.profile-pic{
+    display:flex;
+     width: 319.83px;
+    height: 464.662px;
+    margin-top:60px ;
+    margin-bottom: 5px;
+    margin-left:5px ;
+    margin-right:100px ;  
+    border-radius: 16px; 
+   
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.new-year-title{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    line-height: 95px; /* 131.944% */
+    padding: 0 330px 170px 330px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.new-title{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    padding: 140px 530px 0 530px;
+
 }
 
-.offer-title{
-    color: #F00;
-    text-align: center;
-    font-family: Inter;
-    font-size: 88px;
-    font-weight: 700;
-    padding:110px 200px 20px 500px;
+
+
+
+
+.title-first{
+    
+    justify-content: left;
 }
-.offer-description{
-    color: #F00;
-    text-align: center;
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;
-    padding: 20px 200px 0px 500px;
-}
-.offer-title-description{
-    color: #070211;
-    text-align: center;
-    font-family: Inter;
-    font-size: 48px;
-    font-weight: 700;
-    padding: 0px 200px 0px 500px;
-}
-.offer{
-    background-image: url('../images/New\ Year\ Photo.png');
-    width: 802.9px;
-    height: 500px;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding:30px 400px 110px 350px;
-}
+
+
+
+
+
+
+
+
 .wow{
     text-align: center;
 }
-.profile-pic{
-    display: flex;
-    width: 319.83px;
-    height: 464.662px;
-    padding: 0.008px 0px 0px 0px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 65px 135px 65px 90px;
-}
+
 /* main section style */
 
 .main{
