@@ -1,11 +1,11 @@
 /* common sheard style */
 body{
-    
+    width: 1600px;
+    height: 7335px;
     font-family: 'Merriweather', serif;
     font-family: 'Open Sans', sans-serif;
     background: #FFF;
     font-family: 'Inter', sans-serif;
-   
     
 }
 
@@ -15,17 +15,20 @@ body{
     width: 1320px;
     height: 600px;
     background-image:url('../images/Banner\ Image.png') ;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: border-radius: 16px;
-    padding: 50px 140px 100px 140px ;
-    
-    
-    
-    
+    background-repeat:no-repeat ;
+    background-position:center ;
+    border-radius: 16px;
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-bottom:120px ;
+    margin-right: 140px;
 }
 .title{
-    text-align: center;
+    width: 1320px;
+    height: 600px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    
+    
 }
 .new-title{
     color: #FFF;
@@ -40,8 +43,6 @@ body{
    text-align: center;
    font-family: Merriweather;
    font-size: 72px;
-   font-style: normal;
-   font-weight: 900;
    line-height: 95px; /* 131.944% */
    padding: 0 330px 170px 330px;
 }
@@ -74,13 +75,13 @@ body{
 }
 .new-title-first{
     color: #FFF;
-font-family: Merriweather;
-font-size: 64px;
-font-weight: 900;
-line-height: 88px; /* 137.5% */
-letter-spacing: 7.04px;
-justify-content: left;
-padding:100px 120px 5px 50px ;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px; /* 137.5% */
+    letter-spacing: 7.04px;
+    justify-content: left;
+    padding:100px 120px 5px 50px ;
 
 }
 .new-year-title-first{
@@ -97,7 +98,6 @@ padding:100px 120px 5px 50px ;
     text-align: center;
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
     text-transform: uppercase;
     border: 0;
@@ -111,7 +111,6 @@ padding:100px 120px 5px 50px ;
     font-family: Inter;
     font-size: 88px;
     font-weight: 700;
-    line-height: normal;
     padding:110px 200px 20px 500px;
 }
 .offer-description{
@@ -120,7 +119,6 @@ padding:100px 120px 5px 50px ;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-    line-height: normal;
     padding: 20px 200px 0px 500px;
 }
 .offer-title-description{
@@ -129,7 +127,6 @@ padding:100px 120px 5px 50px ;
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
-    line-height: normal;
     padding: 0px 200px 0px 500px;
 }
 .offer{
@@ -404,22 +401,18 @@ padding:100px 120px 5px 50px ;
 
 .nur{
     width: 1600px;
- 
-    padding: 20px 130px 20px 130px;
     
-    
-    
+     
 }
 .hur{
-    
-    width: 424px;
-    height: 450px;
-    border-radius: 16px;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-    display: inline; 
-    margin:5px 5px;
-
+    margin-bottom: 20px;
+    display: flex; 
+    gap: 20px;
 } 
+.hur-nur{
+    display: flex; 
+    gap: 20px;
+}
 .hur-1{
     margin-top: 5px;
     margin-left: 5px;
@@ -495,6 +488,7 @@ padding:100px 120px 5px 50px ;
     height: 72px;
     border: 0;
     
+    
 }
 .nur-button-1{
     width: 210px;
@@ -507,11 +501,15 @@ padding:100px 120px 5px 50px ;
     font-size: 20px;
     font-weight: 600;
     text-transform: capitalize;
-    border: 0;
+    margin-left: -4px;
+    border: 0; 
     
 }
 .footer{
     background: #070211;
+    width: 1600px;
+height: 609px;
+flex-shrink: 0;
     
 }
    
@@ -531,7 +529,6 @@ padding:100px 120px 5px 50px ;
     color: #FFF;
 font-family: Inter;
 font-size: 24px;
-font-style: normal;
 font-weight: 500;
 line-height: 40px; /* 166.667% */
 }
@@ -546,7 +543,7 @@ line-height: 40px; /* 166.667% */
     color: #FFF;
 font-family: Inter;
 font-size: 24px;
-font-style: normal;
+
 font-weight: 500;
 line-height: normal;
 display: flex;
