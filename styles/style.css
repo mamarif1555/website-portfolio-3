@@ -35,7 +35,7 @@ body{
     font-family: Merriweather;
     font-size: 32px;
     font-weight: 400;
-    padding: 177px 530px 10px 530px;
+    padding: 140px 530px 0px 530px;
     
 }
 .new-year-title{
@@ -44,7 +44,7 @@ body{
     font-size: 72px;
     font-weight: 900;
     line-height: 95px; 
-    padding: 6px 340px 117px 340px;
+    padding: 0px 340px 117px 340px;
 }
 .wow{
     text-align: center;
