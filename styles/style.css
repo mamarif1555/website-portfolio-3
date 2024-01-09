@@ -122,8 +122,7 @@ body{
     margin-left:126px ;
     margin-right:0px ;
     border: 0;
-    
-    
+       
 }   
 .profile-pic{
     display:flex;
@@ -136,18 +135,149 @@ body{
     border-radius: 16px; 
    
 }
+    /* main section start style */
+.main-first-but{
+    width: 1320px;
+    height: 482px;
+    fill: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    text-align: center;
+         
+}
+
+.main-first,.main-secend,.main-third{
+    color: #F00;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.main-text{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    /* padding: 100px 80px 20px 380px;*/
+    margin-top: 220px;
+    margin-left: 380px;
+    margin-bottom:40px ;
+    margin-right:85px ;
     
+}
+.main-but{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #F00;
+    display: inline-flex;
+    padding: 16px 32px;
+   /* margin: 10px  100px 20px 400px; */
+    border: 0;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 600px;
+    margin-bottom:160px ;
+    margin-right:300px ;
+}
 
 
+.wow-happy{
+    display: flex;
+    background: #FFF;
+    
+}
+.arif{
+    text-align: left;
+    margin-top:224px ;
+    margin-bottom:130px ;
+    margin-left:140px ;
+    margin-right:50px ;
 
+}
 
+.arif-first{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
 
+}
 
+.arif-secend{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+   
+}
 
+.arif-third{
+    width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+    
+}
 
+.abir{
+    width: 463px;
+    height: 463px;
+    text-align: center;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    margin-top:150px ;
+    margin-bottom:10px ;
+    margin-left:20px ;
+    margin-right:20px ;
+    
+}
+.abir-first{
+    width: 364.844px;
+    height: 364.844px;
+    border-radius: 364.844px;
+    margin-top:50px ;
+    margin-bottom:50px ;
+    margin-left:50px ;
+    margin-right:50px ;
+}
 
+.atik{
+    text-align: right;
+    margin-top:230px ;
+    margin-bottom:100px ;
+    margin-left:50px ;
+    margin-right:140px ;
+}
 
-
+.atik-first{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    
+}
+.atik-secend{
+    width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+    
+}
+.atik-third{
+    width: 140px;
+    height: 140px;
+    
+}
 
 
 
@@ -166,8 +296,7 @@ body{
     padding: 0 330px 170px 330px;
  }
 
-
-
+ 
 
 
 
@@ -218,136 +347,16 @@ body{
     
 
 }
-.main-text{
-    text-align: center;
-    color: #070211;
-   font-family: Inter;
-   font-size: 32px;
-   font-weight: 600;
-   line-height: 56px;
-   text-transform: capitalize;
-   padding: 100px 80px 20px 380px;
-}
-.main-first,.main-secend,.main-third{
-    color: #F00;
-    text-align: center;
-    font-family: Inter;
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 56px; /* 175% */
-    text-transform: capitalize;
-}
-.main-but{
-    color: #FFF;
-    text-align: center;
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 700;
-    text-transform: uppercase;
-    background-color: #F00;
-    display: inline-flex;
-    padding: 16px 32px;
-    margin: 10px  100px 20px 400px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border: 0;
-    border-radius: 10px;
-}
-.main-first-but{
-    text-align: center;
-   
-    
-}
+
+
+
 /
    /* style start another  */
 
-.arif{
-    text-align: left;
-}
-.abir{
-    text-align: center;
-}
-.atik{
-    text-align: right;
-}
-.arif-first{
-    color: #F00;
-    text-align: center;
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 400;
-    padding: 220px 200px 0 140px;
 
-}
-.arif-secend{
-    color: #070211;
-   font-family: Merriweather;
-   font-size: 48px;
-   font-weight: 900;
-   text-transform: capitalize;
-   padding: 0 90px 0 130px;
-}
-.arif-third{
-    width: 393px;
-    color: rgba(7, 2, 17, 0.60);
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px; /* 160% */
-    padding: 20px 20px 120px 140px;
-}
-.abir{
-    width: 463px;
-    height: 463px;
-    flex-shrink: 0;
-    border-radius: 463px;
-    border: 15px solid #F00;
-    margin:200px 50px ;
-    
-}
-.abir-first{
-    width: 364.844px;
-    height: 364.844px;
-    flex-shrink: 0;
-    border-radius: 364.844px;
-    background: url(<path-to-image>), lightgray -91.279px 0px / 150.038% 100% no-repeat;
-    margin: 50px 50px ;
-}
 
-.atik{
-    
-    background: #FFF;
-}
-.atik-first{
-    color: #F00;
-    font-family: Inter;
-    font-size: 48px;
-    font-weight: 700;
-    padding: 220px 290px 0px 0px;
 
-}
-.atik-secend{
-    width: 276px;
-    color: rgba(7, 2, 17, 0.60);
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px; /* 160% */
-    padding: 0px 140px 20px 100px;
-    
-}
-.atik-third{
-    width: 140px;
-    height: 140px;
-    padding:20px 280px 100px 10px;
 
-}
-.wow-happy{
-    display: flex;
-    
-}
 .section{
     
     margin-top: 0px;
